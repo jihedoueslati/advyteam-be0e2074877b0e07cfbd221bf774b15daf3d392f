@@ -21,6 +21,6 @@ namespace Solution.Data
         public float? salaire { get; set; }
 
         [StringLength(255)]
-        public string typeContrat { get; set; }
+        public string typeContrat { get; set;   }
     }
 }
